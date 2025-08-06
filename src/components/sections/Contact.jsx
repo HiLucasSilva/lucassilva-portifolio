@@ -13,7 +13,7 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .send(
+      .sendForm(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         e.target,
