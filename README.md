@@ -2,7 +2,10 @@
 
 Bem-vindo ao meu portfólio! Este projeto demonstra minhas habilidades em desenvolvimento web com uma interface moderna e responsiva, construída com React e Vite.
 
-🛠️ Tecnologias
+🛠️ Tecnologias e Ferramentas
+- Html
+- Css
+- JavaScript
 - React
 - Vite
 - ESLint
