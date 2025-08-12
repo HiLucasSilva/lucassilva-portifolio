@@ -1,12 +1,27 @@
-# React + Vite
+# Portfólio Lucas Silva
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este projeto demonstra minhas habilidades em desenvolvimento web com uma interface moderna e responsiva, construída com React e Vite.
 
-Currently, two official plugins are available:
+🛠️ Tecnologias
+- React
+- Vite
+- ESLint
+- TypeScript 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💭 Sobre Mim
 
-## Expanding the ESLint configuration
+Desenvolvedor entusiasta com experiência na criação de aplicações web escaláveis e foco em soluções criativas que unem performance, usabilidade e inovação.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📬 Contato
+
+GitHub: [HiLucasSilva](https://github.com/HiLucasSilva)
+
+LinkedIn: https://www.linkedin.com/in/lucasmendoncasilva
+
+E-mail: lucas.mendonca.silva@hotmail.com ou lucassilvadevx@gmail.com
+
+# 📜 Licença
+
+Este projeto é de código aberto e está disponível sob a Licença MIT.
+
+Construído com 💻 e ☕ por Lucas Silva
