@@ -12,7 +12,47 @@ export const Projects = () => {
             {" "}
          Projetos de Destaque
           </h2>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Trinus</h3>
+              <p className="text-gray-400 mb-4">
+                O Trinus é uma plataforma digital desenvolvida para apresentar projetos de engenharia e tecnologia de forma moderna, visual e interativa.
+                Criado para um grupo de engenheiros, o Trinus une design limpo, arquitetura de código organizada e experiência de usuário fluida, servindo como portfólio profissional coletivo e vitrine de inovação técnica.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["ReactJs", "Vite", "TailwindCSS", "Vercel" ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="https://trinus-iota.vercel.app"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> Qr-Code Generation</h3>
               <p className="text-gray-400 mb-4">
@@ -121,43 +161,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            <div
-              className="
-              glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-blue-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
-              transition-all
-            "
-            >
-              <h3 className="text-xl font-bold mb-2">Calculadora Cientifica</h3>
-              <p className="text-gray-400 mb-4">
-                Este é um aplicativo de calculadora científica desenvolvido inteiramente em Python, que permite realizar cálculos matemáticos complexos de forma simples e eficiente. Com uma interface funcional e comandos intuitivos, o programa suporta operações básicas, funções trigonométricas, exponenciais, logaritmos, e muito mais.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["Python"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="
-                      bg-blue-500/10 text-blue-500 py-1 px-3 
-                      rounded-full text-sm
-                      transition
-                      hover:bg-blue-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
-                    "
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex justify-between items-center ">
-                <a
-                  href="https://github.com/HiLucasSilva/Calculete-Cientific"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
+            
           </div>
         </div>
       </RevealOnScroll>
