@@ -22,7 +22,7 @@ GitHub: [HiLucasSilva](https://github.com/HiLucasSilva)
 
 LinkedIn: https://www.linkedin.com/in/lucasmendoncasilva
 
-E-mail: lucas.mendonca.silva@hotmail.com ou lucassilvadevx@gmail.com
+E-mail: lucassilvadevx@gmail.com
 
 # 📜 Licença
 
